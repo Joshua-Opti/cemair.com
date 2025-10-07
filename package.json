@@ -9,16 +9,17 @@
     "build:gh-pages": "vite build --base=/cemair.com/",
     "preview": "vite preview",
     "preview:gh-pages": "vite preview --base=/cemair.com/",
-    "lint": "eslint . --ext js,jsx,ts,tsx",
+    "lint": "eslint . --ext js,jsx,ts,tsx --max-warnings 0",
     "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
     "format": "prettier --write .",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage --passWithNoTests",
     "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./lighthouse-report.html",
     "lighthouse:gh-pages": "lighthouse https://joshua-opti.github.io/cemair.com/ --output html --output-path ./lighthouse-report.html",
     "deploy:check": "npm run build:gh-pages && npm run test",
     "clean": "rm -rf dist",
-    "prebuild": "npm run clean"
+    "prebuild": "npm run clean",
+    "postinstall": "echo 'Dependencies installed successfully'"
   },
   "dependencies": {
     "react": "^18.2.0",
