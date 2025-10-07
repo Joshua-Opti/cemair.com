@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://joshua-opti.github.io/cemair.com/sitemap.xml
+Sitemap: https://cemair.vercel.app/sitemap.xml
 
 # Disallow admin areas (if any)
 Disallow: /admin/
@@ -11,6 +11,6 @@ Disallow: /_next/
 Disallow: /node_modules/
 
 # Allow all other content
-Allow: /cemair.com/
-Allow: /cemair.com/assets/
-Allow: /cemair.com/images/
+Allow: /
+Allow: /assets/
+Allow: /images/
