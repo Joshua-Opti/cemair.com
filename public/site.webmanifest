@@ -1,0 +1,42 @@
+{
+  "name": "CemAir - South Africa's Premier Regional Airline",
+  "short_name": "CemAir",
+  "description": "South Africa's premier regional airline offering domestic and international flights with exceptional service and reliability.",
+  "start_url": "/cemair.com/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/cemair.com/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/cemair.com/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/cemair.com/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/cemair.com/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/cemair.com/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["travel", "transportation", "business"],
+  "lang": "en-ZA",
+  "dir": "ltr",
+  "scope": "/cemair.com/",
+  "prefer_related_applications": false
+}
